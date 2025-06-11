@@ -6,7 +6,9 @@ public class BasicSorting{
 
       int n=arr1.length-1;
         // GetOutput(arr1);
-       BubbleSort(arr1,n);
+        // BubbleSort(arr1,n);
+        // GetOutput(arr1);
+        SelectionSort(arr1 ,n);
         GetOutput(arr1);
 
 
@@ -27,7 +29,7 @@ public static int[] takeInput(){
 }
 public static void GetOutput(int arr[]){
     for(int i=0;i<=arr.length-1;i++){
-        System.out.print(arr[i]+" ");
+        System.out.print(arr[i]+"   ");
     }
 }
 
@@ -46,4 +48,27 @@ public static void BubbleSort(int arr1[],int n){
         }
         // GetOutput(arr1);
 }
+
+public static void SelectionSort(int arr1[], int n){  //arr1 is an array and n is size of arr
+    for(int i=0;i<=n;i++){
+        // System.out.println(i);
+        // int smallest=Integer.MAX_VALUE;
+        int minPos=i;
+        for(int j=i+1;j<=n;j++){
+            if(arr1[minPos]>arr1[j]){
+                minPos=j;
+            }
+            
+            }
+            
+        int temp=arr1[minPos];
+        arr1[minPos]=arr1[i];
+        arr1[i]=temp;
+        
+        }
+        
+        
+    }
 }
+
+
