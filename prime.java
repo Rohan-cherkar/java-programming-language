@@ -14,6 +14,6 @@ public class prime {
             System.out.println("number is prime");
         } else{
             System.out.println("number is not prime");
-        }
+        }                                                       
     }
 }
