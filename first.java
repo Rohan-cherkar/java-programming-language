@@ -12,8 +12,11 @@ public class first {
         // // System.out.println(sum);
         // // int div=a*b;
         // System.out.println(area);
-        int $=34;
-        System.out.println($);
+        // int $=34;
+        // System.out.println($);
+
+        BankAcct idbi=new BankAcct();
+        System.out.println(idbi.username);
 
 
 

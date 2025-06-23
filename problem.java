@@ -17,6 +17,6 @@ public class problem {
         }
         else{
             System.out.println("fourth quadrant");
-        }1
+        }
     }
 }
